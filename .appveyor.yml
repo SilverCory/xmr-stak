@@ -8,9 +8,9 @@ platform: x64
 clone_folder: c:\xmr-stak
 
 artifacts:
-  - path: c:\xmr-stak\build\bin\Release\myapp.zip
+  - path: build\bin\Release\myapp.zip
     name: myapp_config_zip
-  - path: c:\xmr-stak\build\bin\Release\
+  - path: build\bin\Release\
 
 install:
   - mkdir c:\xmr-stak-dep
